@@ -1,2 +1,10 @@
 ***APUNTES DEL CURSO DE LINUX***
 -----------José Jácome----------
+
+-La Línea de Comandos
+Contiene tres elemntos básicos 1 Comando 2 Opciones 3 Argumentos
+-Sudo
+Provee privilegios de Administrador para permiter a los users correr programas
+-> Operaciones Básicas
+-Halt Sirve para apagar
+
