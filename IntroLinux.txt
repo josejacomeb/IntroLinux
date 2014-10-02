@@ -19,3 +19,15 @@ which diff
 *pwd Presenta el Directorio de trbajo actual
 *cd Cambia el directorio actual al directorio de la home
 *cd .. Cambia al Directorio Superior
+~~~~~~~~~~~~~~~~~~ Directorios ~~~~~~~~~~~~~~~~~~
+-Ruta absoluta:Empieza con el directorio root y sigue el arbol de turas
+-Ruta relativa: Empieza con el directorio de trabajo
+(Los múltiples slashes /// son permitidos)
+Absolute pathname method: $ cd /usr/bin
+Relative pathname method:   $ cd ../../usr/bin
+~~~~~~~~~~~~~~~~~~ Explorando el Sistema de Archivos ~~~~~~~~~~~~~~~~~~
+tree -d sirve para ver solo los directorios sin los archivos
+cd / Cambiar el direcotiro actual a root
+ls Lista los contenidos del presente directorio
+ls -a Lista todos los archivos incluidos a los ocultos
+tree Muestra una vista de aŕbol del Sistema de Archivos
