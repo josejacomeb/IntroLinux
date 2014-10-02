@@ -2,9 +2,20 @@
 -----------José Jácome----------
 
 -La Línea de Comandos
-Contiene tres elemntos básicos 1 Comando 2 Opciones 3 Argumentos
+Contiene tres elementos básicos 1 Comando 2 Opciones 3 Argumentos
 -Sudo
 Provee privilegios de Administrador para permiter a los users correr programas
 -> Operaciones Básicas
--Halt Sirve para apagar
-
+~~~~~~~~~~~~~~~~~~Apagar y Reiniciar~~~~~~~~~~~~~~~~~~
+-Halt Sirve para apagar, así como shutdown -h
+-shutdown -r sirve para reiniciar
+-Para programar un apagado lo hacemos con:
+ sudo shutdown -h 10:00 "Shutting down for scheduled maintenance." 
+~~~~~~~~~~~~~~~~~~Localizar Aplicaciones~~~~~~~~~~~~~~~~~~
+Las distribuciones generalmente instala los ejecutables en /bin,/usr/bin,/sbin./usr/sbin 
+-Which es una utilidad que sirve para buscar un programa
+which diff
+-Las operaciones para directorios son:
+*pwd Presenta el Directorio de trbajo actual
+*cd Cambia el directorio actual al directorio de la home
+*cd .. Cambia al Directorio Superior
